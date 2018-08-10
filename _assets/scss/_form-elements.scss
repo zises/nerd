@@ -1,0 +1,54 @@
+/* ------------------------------------------------------------ *\
+  Form Elements
+\* ------------------------------------------------------------ */
+
+/*  Field  */
+
+.field {
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid $grey-600;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  line-height: 36px;
+  outline: none!important;
+  color: $grey-100;
+  transition: border-color .3s;
+  border-radius: 0;
+
+  &:focus {
+    border-color: $grey-250;
+  }
+
+  &::placeholder {
+    color: $grey-250;
+    text-transform: uppercase;
+  }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .field {
+    padding-bottom: 10px;
+    line-height: 1;
+  }
+}
+/*  textarea  */
+
+.textarea {
+  border: 0;
+  width: 100%;
+  background-color: transparent;
+  border-bottom: 2px solid $grey-600;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  resize: none;
+  outline: none!important;
+  border-radius: 0;
+
+  transition: border-color .3s;
+
+  &:focus {
+    border-color: $grey-250;
+  }
+}

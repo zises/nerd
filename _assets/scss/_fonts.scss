@@ -1,0 +1,74 @@
+//
+// Fonts
+//
+
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: normal;
+  src:
+    url('../fonts/proxima_nova.woff2') format('woff2'),
+    url('../fonts/proxima_nova.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: bold;
+  src:
+    url('../fonts/proxima_nova-bold.woff2') format('woff2'),
+    url('../fonts/proxima_nova-bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'DroidSerif';
+  font-style: normal;
+  font-weight: normal;
+  src:
+    url('../fonts/DroidSerif.woff2') format('woff2'),
+    url('../fonts/DroidSerif.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'DroidSerif';
+  font-style: italic;
+  font-weight: bold;
+  src:
+    url('../fonts/DroidSerif-BoldItalic.woff2') format('woff2'),
+    url('../fonts/DroidSerif-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'DroidSerif';
+  font-style: italic;
+  font-weight: normal;
+  src:
+    url('../fonts/DroidSerif-Italic.woff2') format('woff2'),
+    url('../fonts/DroidSerif-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: bold;
+  src:
+    url('../fonts/futurapt-bold-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 900;
+  src:
+    url('../fonts/FuturaPT-Heavy.woff2') format('woff2'),
+    url('../fonts/FuturaPT-Heavy.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Futura';
+  font-style: italic;
+  font-weight: bold;
+  src:
+    url('../fonts/FuturaStd-BoldOblique.woff2') format('woff2'),
+    url('../fonts/FuturaStd-BoldOblique.woff') format('woff');
+}

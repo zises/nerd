@@ -1,0 +1,67 @@
+/* ------------------------------------------------------------ *\
+  Subscribe
+\* ------------------------------------------------------------ */
+
+.subscribe {
+  font-family: $font-family;
+
+  form {
+    display: flex;
+  }
+
+  .subscribe__field {
+    width: calc(100% - 54px);
+    border: 0;
+    border-bottom: 2px solid $grey-200;
+    color: $white;
+    background-color: transparent;
+    letter-spacing: 0.06em;
+    height: 42px;
+    line-height: 41px;
+    outline: none !important;
+    transition: border-color .3s;
+    border-radius: 0;
+
+    &::placeholder {
+      text-transform: uppercase;
+    }
+
+    &:focus {
+      border-color: $grey-300;
+    }
+  }
+
+  .subscribe__btn {
+    position: relative;
+    width: 54px;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    color: $yellow;
+    text-transform: uppercase;
+    border-bottom: 2px solid $yellow;
+    transition: color .3s, border-color .3s;
+
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      display: block;
+      width: 2px;
+      height: 2px;
+      background-color: $yellow;
+      transition: background-color .3s;
+    }
+
+    &:hover {
+      color: $white;
+      border-color: $white;
+      cursor: pointer;
+
+      &:after {
+        background-color: $white;
+      }
+    }
+  }
+}

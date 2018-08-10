@@ -1,0 +1,572 @@
+diff --git a/_includes/footer.html b/_includes/footer.html
+index 9cf6282..9aac704 100644
+--- a/_includes/footer.html
++++ b/_includes/footer.html
+@@ -1,6 +1,6 @@
+ <footer class="footer">
+   <div class="container">
+-    <div class="footer__subscribe" style="background-image: url({{ "/assets/borders.png" | relative_url "}})">
++    <div class="footer__subscribe" style="background-image: url(assets/borders.png">
+       <div class="footer__subscribe-head">
+         <h6 class="footer__subscribe-title">
+           Stay Connected With Us!
+@@ -47,7 +47,7 @@
+ 
+       <div class="footer__col">
+         <a href="#" class="footer__logo">
+-          <img src="{{ "/assets/logo-light.png" | relative_url "}}" height="65" width="221" alt="">
++          <img src="assets/logo-light.png" | relative_url "}}" height="65" width="221" alt="">
+         </a>
+       </div><!-- /.footer__col -->
+ 
+@@ -64,10 +64,10 @@
+ <script src="https://code.jquery.com/jquery-3.3.1.js" crossorigin="anonymous"></script>
+ 
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+-<script src="{{ "/assets/main.js" | relative_url }}"></script>
++<script src="assets/main.js" | relative_url }}"></script>
+ 
+-<!-- <script src="{{ "/assets/vendor/jquery.js" | relative_url }}"></script>
+-<script src="{{ "/assets/vendor/slick-1.8.1/slick/slick.min.js" | relative_url }}"></script>
++<!-- <script src="assets/vendor/jquery.js" | relative_url }}"></script>
++<script src="assets/vendor/slick-1.8.1/slick/slick.min.js" | relative_url }}"></script>
+  -->
+ {% if site.google_analytics %}
+ <script>
+diff --git a/_includes/head.html b/_includes/head.html
+index d8ace51..7cd4028 100644
+--- a/_includes/head.html
++++ b/_includes/head.html
+@@ -11,10 +11,11 @@
+   <link href="https://fonts.googleapis.com/css?family=Lora:400i" rel="stylesheet">
+ 
+   <!-- Favicons -->
+-  <link rel="apple-touch-icon" href="{{ "/assets/apple-touch-icon.png" | relative_url }}">
+-  <link rel="shortcut icon" href="{{ "/assets/favicon.ico" | relative_url }}">
++  <link rel="apple-touch-icon" href="{{ "assets/apple-touch-icon.png" | absolute_url }}">
++  <link rel="shortcut icon" href="{{ "assets/favicon.ico" | absolute_url }}">
+ 
+-<!-- CSS files -->
+-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
++  <link rel="stylesheet" href="assets/main.css" />
++
++  <!-- <link rel="stylesheet" href="{{ "assets/main.css" | absolute_url }}"> -->
+   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+ </head>
+diff --git a/_includes/header-blog.html b/_includes/header-blog.html
+index 64eb3dc..cf48561 100644
+--- a/_includes/header-blog.html
++++ b/_includes/header-blog.html
+@@ -5,7 +5,7 @@
+     {% assign pages = site.navigation | default: default_pages %}
+ 
+     <a class="logo" href="{{ "/" | relative_url }}" title="Home page">
+-      <img src="{{ "/assets/logo.png" | relative_url "}}" alt="" width="264" height="77">
++      <img src="assets/logo.png" alt="" width="264" height="77">
+     </a>
+ 
+     <a href="#" class="btn-menu">
+@@ -41,13 +41,13 @@
+         <ul>
+           <li>
+             <a href="#">
+-              <img src="{{ "/assets/ico-tweeter.png" | relative_url "}}" width="13" height="12" alt="">
++              <img src="assets/ico-tweeter.png" width="13" height="12" alt="">
+             </a>
+           </li>
+ 
+           <li>
+             <a href="#">
+-              <img src="{{ "/assets/ico-instagram.png" | relative_url "}}" width="12" height="14" alt="">
++              <img src="assets/ico-instagram.png" width="12" height="14" alt="">
+             </a>
+           </li>
+         </ul>
+diff --git a/_includes/header.html b/_includes/header.html
+index 08b6c0d..2e736dc 100644
+--- a/_includes/header.html
++++ b/_includes/header.html
+@@ -5,7 +5,7 @@
+     {% assign pages = site.navigation | default: default_pages %}
+ 
+     <a class="logo" href="{{ "/" | relative_url }}" title="Home page">
+-      <img src="{{ "/assets/logo.png" | relative_url "}}" alt="" width="264" height="77">
++      <img src="assets/logo.png" alt="" width="264" height="77">
+     </a>
+ 
+     <a href="#" class="btn-menu">
+@@ -41,13 +41,13 @@
+         <ul>
+           <li>
+             <a href="#">
+-              <img src="{{ "/assets/ico-tweeter.png" | relative_url "}}" width="13" height="12" alt="">
++              <img src="assets/ico-tweeter.png" width="13" height="12" alt="">
+             </a>
+           </li>
+ 
+           <li>
+             <a href="#">
+-              <img src="{{ "/assets/ico-instagram.png" | relative_url "}}" width="12" height="14" alt="">
++              <img src="assets/ico-instagram.png" width="12" height="14" alt="">
+             </a>
+           </li>
+         </ul>
+diff --git a/_pages/blog.html b/_pages/blog.html
+index 0507f33..2bae410 100644
+--- a/_pages/blog.html
++++ b/_pages/blog.html
+@@ -6,10 +6,10 @@ title: NFL Cannabis Ban
+   <div class="container">
+     <div class="intro">
+       <div class="intro__image intro__image--small">
+-      <img src="{{ "/assets/intro-blog.jpg" | relative_url "}}" alt="" width="1400" height="381">
++      <img src="assets/intro-blog.jpg" alt="" width="1400" height="381">
+       </div><!-- /.intro__image -->
+ 
+-      <div class="intro__content intro__content--small" style="background-image: url({{ "/assets/mask.png" | relative_url "}})">
++      <div class="intro__content intro__content--small" style="background-image: url(assets/mask.png"">
+         <div class="intro__body">
+           <h1 class="intro__title intro__title--small">
+             NFL Cannabis Ban
+@@ -41,7 +41,7 @@ title: NFL Cannabis Ban
+         </p><!-- /.section__date -->
+ 
+         <div class="section__image">
+-          <img src="{{ "/assets/podacast.png" | relative_url "}}" width="570" height="296" alt="">
++          <img src="assets/podacast.png" width="570" height="296" alt="">
+         </div><!-- /.section__image -->
+       </div><!-- /.section__head -->
+ 
+@@ -69,25 +69,25 @@ title: NFL Cannabis Ban
+             <ul>
+               <li>
+                 <a href="#">
+-                  <img src="{{ "/assets/ico-facebook.png" | relative_url "}}" width="9" height="15" alt="">
++                  <img src="assets/ico-facebook.png" width="9" height="15" alt="">
+                 </a>
+               </li>
+ 
+               <li>
+                 <a href="#">
+-                  <img src="{{ "/assets/ico-tweeter.png" | relative_url "}}" width="13" height="12" alt="">
++                  <img src="assets/ico-tweeter.png" width="13" height="12" alt="">
+                 </a>
+               </li>
+ 
+               <li>
+                 <a href="#">
+-                  <img src="{{ "/assets/ico-google.png" | relative_url "}}" width="14" height="15" alt="">
++                  <img src="assets/ico-google.png" width="14" height="15" alt="">
+                 </a>
+               </li>
+ 
+               <li>
+                 <a href="#">
+-                  <img src="{{ "/assets/ico-pinterest.png" | relative_url "}}" width="14" height="14" alt="">
++                  <img src="assets/ico-pinterest.png" width="14" height="14" alt="">
+                 </a>
+               </li>
+ 
+@@ -145,7 +145,7 @@ title: NFL Cannabis Ban
+             <div class="form__actions">
+               <button type="submit" class="btn btn--dark btn--block">
+                 <i>
+-                  <img src="{{ "/assets/arrow-white-large.png" | relative_url "}}" alt="" width="16" height="10">
++                  <img src="assets/arrow-white-large.png"" alt="" width="16" height="10">
+                 </i>
+ 
+                 Send Your Message
+@@ -160,7 +160,7 @@ title: NFL Cannabis Ban
+             <div class="box">
+               <a href="{{page.previous.url}}.html" class="btn-black-new">
+                 <span class="btn__box">
+-                            <img src="{{ "/assets/arrow-white-large.png" | relative_url "}}" alt="" width="16" height="10">
++                            <img src="assets/arrow-white-large.png"" alt="" width="16" height="10">
+                 </span>
+ 
+                 <span class="btn__text">
+@@ -182,7 +182,7 @@ title: NFL Cannabis Ban
+             <div class="box box--opposite">
+               <a href="{{page.next.url}}.html" class="btn-black-new btn-black-new--next">
+                 <span class="btn__box">
+-                  <img src="{{ "/assets/arrow-white-large.png" | relative_url "}}" alt="" width="16" height="10">
++                  <img src="assets/arrow-white-large.png"" alt="" width="16" height="10">
+                 </span>
+ 
+                 <span class="btn__text">
+@@ -205,13 +205,13 @@ title: NFL Cannabis Ban
+ 
+   <section class="section-contacts">
+     <div class="container">
+-      <div class="section__head" style="background-image: url({{ "/assets/contact-placehodler.png" | relative_url "}})">
++      <div class="section__head" style="background-image: url(assets/contact-placehodler.png"">
+         <h1 class="section__title">
+           Contact Us
+         </h1><!-- /.section__title -->
+ 
+         <div class="section__head-img">
+-          <img src="{{ "/assets/mask-black.png" | relative_url "}}" alt="" width="127" height="145">
++          <img src="assets/mask-black.png" alt="" width="127" height="145">
+         </div><!-- /.section__head-img -->
+       </div><!-- /.section__head -->
+ 
+@@ -319,7 +319,7 @@ title: NFL Cannabis Ban
+               <div class="form__actions">
+                 <button type="submit" class="btn btn--dark btn--block">
+                   <i>
+-                              <img src="{{ "/assets/arrow-white-large.png" | relative_url "}}" alt="" width="16" height="10">
++                              <img src="assets/arrow-white-large.png"" alt="" width="16" height="10">
+                             </i>
+ 
+                             Send Your Message
+diff --git a/_pages/blog2.html b/_pages/blog2.html
+index fbf768c..3967e1d 100644
+--- a/_pages/blog2.html
++++ b/_pages/blog2.html
+@@ -6,10 +6,10 @@ title: NFL Cannabis Ban
+   <div class="container">
+     <div class="intro">
+       <div class="intro__image intro__image--small">
+-      <img src="{{ "/assets/intro-blog.jpg" | relative_url "}}" alt="" width="1400" height="381">
++      <img src="assets/intro-blog.jpg" alt="" width="1400" height="381">
+       </div><!-- /.intro__image -->
+ 
+-      <div class="intro__content intro__content--small" style="background-image: url({{ "/assets/mask.png" | relative_url "}})">
++      <div class="intro__content intro__content--small" style="background-image: url(assets/mask.png" | relative_url "}})">
+         <div class="intro__body">
+           <h1 class="intro__title intro__title--small">
+             NFL Cannabis Ban
+@@ -41,7 +41,7 @@ title: NFL Cannabis Ban
+         </p><!-- /.section__date -->
+ 
+         <div class="section__image">
+-          <img src="{{ "/assets/podacast.png" | relative_url "}}" width="570" height="296" alt="">
++          <img src="assets/podacast.png" width="570" height="296" alt="">
+         </div><!-- /.section__image -->
+       </div><!-- /.section__head -->
+ 
+@@ -69,25 +69,25 @@ title: NFL Cannabis Ban
+             <ul>
+               <li>
+                 <a href="#">
+-                  <img src="{{ "/assets/ico-facebook.png" | relative_url "}}" width="9" height="15" alt="">
++                  <img src="assets/ico-facebook.png" width="9" height="15" alt="">
+                 </a>
+               </li>
+ 
+               <li>
+                 <a href="#">
+-                  <img src="{{ "/assets/ico-tweeter.png" | relative_url "}}" width="13" height="12" alt="">
++                  <img src="assets/ico-tweeter.png" width="13" height="12" alt="">
+                 </a>
+               </li>
+ 
+               <li>
+                 <a href="#">
+-                  <img src="{{ "/assets/ico-google.png" | relative_url "}}" width="14" height="15" alt="">
++                  <img src="assets/ico-google.png" width="14" height="15" alt="">
+                 </a>
+               </li>
+ 
+               <li>
+                 <a href="#">
+-                  <img src="{{ "/assets/ico-pinterest.png" | relative_url "}}" width="14" height="14" alt="">
++                  <img src="assets/ico-pinterest.png" width="14" height="14" alt="">
+                 </a>
+               </li>
+ 
+@@ -145,7 +145,7 @@ title: NFL Cannabis Ban
+             <div class="form__actions">
+               <button type="submit" class="btn btn--dark btn--block">
+                 <i>
+-                            <img src="{{ "/assets/arrow-white-large.png" | relative_url "}}" alt="" width="16" height="10">
++                            <img src="assets/arrow-white-large.png" alt="" width="16" height="10">
+                           </i>
+ 
+                           Send Your Message
+@@ -160,7 +160,7 @@ title: NFL Cannabis Ban
+             <div class="box">
+               <a href="{{page.previous.url}}.html" class="btn-black-new">
+                 <span class="btn__box">
+-                            <img src="{{ "/assets/arrow-white-large.png" | relative_url "}}" alt="" width="16" height="10">
++                            <img src="assets/arrow-white-large.png" alt="" width="16" height="10">
+                 </span>
+ 
+                 <span class="btn__text">
+@@ -182,7 +182,7 @@ title: NFL Cannabis Ban
+             <div class="box box--opposite">
+               <a href="{{page.next.url}}.html" class="btn-black-new btn-black-new--next">
+                 <span class="btn__box">
+-                            <img src="{{ "/assets/arrow-white-large.png" | relative_url "}}" alt="" width="16" height="10">
++                            <img src="assets/arrow-white-large.png" alt="" width="16" height="10">
+                 </span>
+ 
+                 <span class="btn__text">
+@@ -205,13 +205,13 @@ title: NFL Cannabis Ban
+ 
+   <section class="section-contacts">
+     <div class="container">
+-      <div class="section__head" style="background-image: url({{ "/assets/contact-placehodler.png" | relative_url "}})">
++      <div class="section__head" style="background-image: url(assets/contact-placehodler.png" | relative_url "}})">
+         <h1 class="section__title">
+           Contact Us
+         </h1><!-- /.section__title -->
+ 
+         <div class="section__head-img">
+-          <img src="{{ "/assets/mask-black.png" | relative_url "}}" alt="" width="127" height="145">
++          <img src="assets/mask-black.png" alt="" width="127" height="145">
+         </div><!-- /.section__head-img -->
+       </div><!-- /.section__head -->
+ 
+@@ -319,7 +319,7 @@ title: NFL Cannabis Ban
+               <div class="form__actions">
+                 <button type="submit" class="btn btn--dark btn--block">
+                   <i>
+-                              <img src="{{ "/assets/arrow-white-large.png" | relative_url "}}" alt="" width="16" height="10">
++                              <img src="assets/arrow-white-large.png" alt="" width="16" height="10">
+                             </i>
+ 
+                             Send Your Message
+diff --git a/_pages/blog3.html b/_pages/blog3.html
+index efee15f..aa87ce2 100644
+--- a/_pages/blog3.html
++++ b/_pages/blog3.html
+@@ -7,10 +7,10 @@ title: NFL Cannabis Ban
+   <div class="container">
+     <div class="intro">
+       <div class="intro__image intro__image--small">
+-      <img src="{{ "/assets/intro-blog.jpg" | relative_url "}}" alt="" width="1400" height="381">
++      <img src="assets/intro-blog.jpg" alt="" width="1400" height="381">
+       </div><!-- /.intro__image -->
+ 
+-      <div class="intro__content intro__content--small" style="background-image: url({{ "/assets/mask.png" | relative_url "}})">
++      <div class="intro__content intro__content--small" style="background-image: url(assets/mask.png" | relative_url "}})">
+         <div class="intro__body">
+           <h1 class="intro__title intro__title--small">
+             NFL Cannabis Ban
+@@ -42,7 +42,7 @@ title: NFL Cannabis Ban
+         </p><!-- /.section__date -->
+ 
+         <div class="section__image">
+-          <img src="{{ "/assets/podacast.png" | relative_url "}}" width="570" height="296" alt="">
++          <img src="assets/podacast.png" width="570" height="296" alt="">
+         </div><!-- /.section__image -->
+       </div><!-- /.section__head -->
+ 
+@@ -70,25 +70,25 @@ title: NFL Cannabis Ban
+             <ul>
+               <li>
+                 <a href="#">
+-                  <img src="{{ "/assets/ico-facebook.png" | relative_url "}}" width="9" height="15" alt="">
++                  <img src="assets/ico-facebook.png" width="9" height="15" alt="">
+                 </a>
+               </li>
+ 
+               <li>
+                 <a href="#">
+-                  <img src="{{ "/assets/ico-tweeter.png" | relative_url "}}" width="13" height="12" alt="">
++                  <img src="assets/ico-tweeter.png" width="13" height="12" alt="">
+                 </a>
+               </li>
+ 
+               <li>
+                 <a href="#">
+-                  <img src="{{ "/assets/ico-google.png" | relative_url "}}" width="14" height="15" alt="">
++                  <img src="assets/ico-google.png" width="14" height="15" alt="">
+                 </a>
+               </li>
+ 
+               <li>
+                 <a href="#">
+-                  <img src="{{ "/assets/ico-pinterest.png" | relative_url "}}" width="14" height="14" alt="">
++                  <img src="assets/ico-pinterest.png" width="14" height="14" alt="">
+                 </a>
+               </li>
+ 
+@@ -146,7 +146,7 @@ title: NFL Cannabis Ban
+             <div class="form__actions">
+               <button type="submit" class="btn btn--dark btn--block">
+                 <i>
+-                            <img src="{{ "/assets/arrow-white-large.png" | relative_url "}}" alt="" width="16" height="10">
++                            <img src="assets/arrow-white-large.png" alt="" width="16" height="10">
+                           </i>
+ 
+                           Send Your Message
+@@ -161,7 +161,7 @@ title: NFL Cannabis Ban
+             <div class="box">
+               <a href="{{page.previous.url}}.html" class="btn-black-new">
+                 <span class="btn__box">
+-                            <img src="{{ "/assets/arrow-white-large.png" | relative_url "}}" alt="" width="16" height="10">
++                            <img src="assets/arrow-white-large.png" alt="" width="16" height="10">
+                 </span>
+ 
+                 <span class="btn__text">
+@@ -183,7 +183,7 @@ title: NFL Cannabis Ban
+             <div class="box box--opposite">
+               <a href="{{page.next.url}}.html" class="btn-black-new btn-black-new--next">
+                 <span class="btn__box">
+-                            <img src="{{ "/assets/arrow-white-large.png" | relative_url "}}" alt="" width="16" height="10">
++                            <img src="assets/arrow-white-large.png" alt="" width="16" height="10">
+                 </span>
+ 
+                 <span class="btn__text">
+@@ -206,13 +206,13 @@ title: NFL Cannabis Ban
+ 
+   <section class="section-contacts">
+     <div class="container">
+-      <div class="section__head" style="background-image: url({{ "/assets/contact-placehodler.png" | relative_url "}})">
++      <div class="section__head" style="background-image: url(assets/contact-placehodler.png" | relative_url "}})">
+         <h1 class="section__title">
+           Contact Us
+         </h1><!-- /.section__title -->
+ 
+         <div class="section__head-img">
+-          <img src="{{ "/assets/mask-black.png" | relative_url "}}" alt="" width="127" height="145">
++          <img src="assets/mask-black.png" alt="" width="127" height="145">
+         </div><!-- /.section__head-img -->
+       </div><!-- /.section__head -->
+ 
+@@ -320,7 +320,7 @@ title: NFL Cannabis Ban
+               <div class="form__actions">
+                 <button type="submit" class="btn btn--dark btn--block">
+                   <i>
+-                              <img src="{{ "/assets/arrow-white-large.png" | relative_url "}}" alt="" width="16" height="10">
++                              <img src="assets/arrow-white-large.png" alt="" width="16" height="10">
+                             </i>
+ 
+                             Send Your Message
+diff --git a/_pages/index.html b/_pages/index.html
+index 184d879..f0e5ff1 100644
+--- a/_pages/index.html
++++ b/_pages/index.html
+@@ -8,10 +8,10 @@ layout: default
+         <div class="slider__slides">
+           <div class="intro">
+             <div class="intro__image">
+-        		<img src="{{ "/assets/intro.png" | relative_url "}}" alt="" width="1400" height="673">
++        		<img src="assets/intro.png" alt="" width="1400" height="673">
+             </div><!-- /.intro__image -->
+ 
+-            <div class="intro__content" style="background-image: url({{ "/assets/mask.png" | relative_url "}})">
++            <div class="intro__content" style="background-image: url(assets/mask.png)">
+               <div class="intro__body">
+                 <h1 class="intro__title">
+                   The Cannabis Report
+@@ -24,7 +24,7 @@ layout: default
+                 <div class="intro__actions">
+                   <a href="#" class="btn">
+                     <i>
+-                      <img src="{{ "/assets/arrow.png" | relative_url "}}" alt="" width="16" height="10">
++                      <img src="assets/arrow.png" alt="" width="16" height="10">
+                     </i>
+ 
+                     Listen Now
+@@ -36,10 +36,10 @@ layout: default
+ 
+           <div class="intro">
+             <div class="intro__image">
+-        		<img src="{{ "/assets/intro.png" | relative_url "}}" alt="" width="1400" height="673">
++        		<img src="assets/intro.png" alt="" width="1400" height="673">
+             </div><!-- /.intro__image -->
+ 
+-            <div class="intro__content" style="background-image: url({{ "/assets/mask.png" | relative_url "}})">
++            <div class="intro__content" style="background-image: url(assets/mask.png)">
+               <div class="intro__body">
+                 <h1 class="intro__title">
+                   The Cannabis Report
+@@ -52,7 +52,7 @@ layout: default
+                 <div class="intro__actions">
+                   <a href="#" class="btn">
+                     <i>
+-                      <img src="{{ "/assets/arrow.png" | relative_url "}}" alt="" width="16" height="10">
++                      <img src="assets/arrow.png" alt="" width="16" height="10">
+                     </i>
+ 
+                     Listen Now
+@@ -88,7 +88,7 @@ layout: default
+             read More
+ 
+             <i>
+-              <img src="{{ "/assets/arrow-grey.png" | relative_url "}}" alt="" width="16" height="10">
++              <img src="assets/arrow-grey.png" alt="" width="16" height="10">
+             </i>
+           </a>
+         </div><!-- /.article__actions -->
+@@ -122,7 +122,7 @@ layout: default
+               <div class="article__actions">
+                 <a href="#" class="btn btn--dark">
+                   <i>
+-                    <img src="{{ "/assets/arrow-white-large.png" | relative_url "}}" alt="" width="16" height="10">
++                    <img src="assets/arrow-white-large.png" alt="" width="16" height="10">
+                   </i>
+ 
+                   Listen Now
+@@ -146,13 +146,13 @@ layout: default
+ 
+   <section class="section-contacts">
+     <div class="container">
+-      <div class="section__head" style="background-image: url({{ "/assets/contact-placehodler.png" | relative_url "}})">
++      <div class="section__head" style="background-image: url(assets/contact-placehodler.png"})">
+         <h1 class="section__title">
+           Contact Us
+         </h1><!-- /.section__title -->
+ 
+         <div class="section__head-img">
+-          <img src="{{ "/assets/mask-black.png" | relative_url "}}" alt="" width="127" height="145">
++          <img src="assets/mask-black.png"}" alt="" width="127" height="145">
+         </div><!-- /.section__head-img -->
+       </div><!-- /.section__head -->
+ 
+@@ -260,10 +260,10 @@ layout: default
+               <div class="form__actions">
+                 <button type="submit" class="btn btn--dark btn--block">
+                   <i>
+-                              <img src="{{ "/assets/arrow-white-large.png" | relative_url "}}" alt="" width="16" height="10">
+-                            </i>
++                    <img src="assets/arrow-white-large.png"}}" alt="" width="16" height="10">
++                  </i>
+ 
+-                            Send Your Message
++                  Send Your Message
+                 </button>
+               </div><!-- /.form__actions -->
+             </form>
+diff --git a/_posts/2017-9-20-lifted.markdown b/_posts/2017-9-20-lifted.markdown
+index 77236a9..58dbeb2 100644
+--- a/_posts/2017-9-20-lifted.markdown
++++ b/_posts/2017-9-20-lifted.markdown
+@@ -6,7 +6,7 @@ date-short:   9.20.17
+ categories: blog update
+ author:   Richard Park
+ resume: Interview with former Ravens tackle Eugene Monroe.
+-image: /assets/hex.png
++image: assets/hex.png
+ image-height: 645
+ image-width: 571
+ ---
+diff --git a/_posts/2017-9-8-biolitics.markdown b/_posts/2017-9-8-biolitics.markdown
+index d5cf36d..85d125c 100644
+--- a/_posts/2017-9-8-biolitics.markdown
++++ b/_posts/2017-9-8-biolitics.markdown
+@@ -6,7 +6,7 @@ date-short:   9.9.17
+ categories: blog update
+ author:   Richard Park
+ resume: Our first sit down with Biolitics podcast; Cannabinerds from Dispensary33 and New Age Care.
+-image: /assets/hex2.png
++image: assets/hex2.png
+ image-height: 645
+ image-width: 568
+ ---
+diff --git a/_posts/2018-8-14-htfse.markdown b/_posts/2018-8-14-htfse.markdown
+index c99949e..3d9a756 100644
+--- a/_posts/2018-8-14-htfse.markdown
++++ b/_posts/2018-8-14-htfse.markdown
+@@ -6,7 +6,7 @@ date-short:   9.5.17
+ categories: blog update
+ author:   Richard Park
+ resume: Learn the painstaking process of creating diamonds & terp sauce.
+-image: /assets/hex3.png
++image: assets/hex3.png
+ image-height: 645
+ image-width: 568
+ ---
