@@ -1,15 +1,11 @@
----
-layout: blog-layout
-title: NFL Cannabis Ban
----
 <div class="slider">
   <div class="container">
     <div class="intro">
       <div class="intro__image intro__image--small">
-      <img src="{{site.baseurl}}assets/intro-blog.jpg" alt="" width="1400" height="381">
+      <img src="assets/intro-blog.jpg" alt="" width="1400" height="381">
       </div><!-- /.intro__image -->
 
-      <div class="intro__content intro__content--small" style="background-image: url({{site.baseurl}}assets/mask.png" | relative_url "}})">
+      <div class="intro__content intro__content--small" style="background-image: url(assets/mask.png" | relative_url "}})">
         <div class="intro__body">
           <h1 class="intro__title intro__title--small">
             NFL Cannabis Ban
@@ -33,31 +29,32 @@ title: NFL Cannabis Ban
 <div class="main">
   <section class="section-podcast">
     <div class="container container--small">
-      {% for post in site.posts limit: 1 %}
+      
       <div class="section__head">
         <p class="section__date">
           Sept 20, 2017
-          {{post.month}}
+          
         </p><!-- /.section__date -->
 
         <div class="section__image">
-          <img src="{{site.baseurl}}assets/podacast.png" width="570" height="296" alt="">
+          <img src="assets/podacast.png" width="570" height="296" alt="">
         </div><!-- /.section__image -->
       </div><!-- /.section__head -->
 
       <div class="section__body">
         <h3 class="section__title">
 
-          {{post.title}}
+          LIFTED Why Drug Addiction &amp; Brain Injury Warrent Lifting the NFL’s Cannabis Ban
 
         </h3><!-- /.section__title -->
 
         <p class="section__author">
-          By: <a href="#">{{post.author}}</a>
+          By: <a href="#">Richard Park</a>
         </p><!-- /.section__author -->
 
         <div class="section__entry">
-          {{ post.content }}
+          <p>These form when moisture from a drippy glass or a hot dish gets trapped in the finish. To remove a long-standing stain, place a towel on top and press with a warm, dry iron for five to 10 seconds — this will soften the finish enough to release the moisture. Candle wax and crayon respond well to ice. Fill a plastic bag with ice cubes, wrap it in a towel, and place it on the stain until it hardens (a few minutes); carefully coax wax off with a plastic spatula or a credit card.</p>
+
         </div><!-- /.section__entry -->
 
         <div class="section__socials">
@@ -69,25 +66,25 @@ title: NFL Cannabis Ban
             <ul>
               <li>
                 <a href="#">
-                  <img src="{{site.baseurl}}assets/ico-facebook.png" width="9" height="15" alt="">
+                  <img src="assets/ico-facebook.png" width="9" height="15" alt="">
                 </a>
               </li>
 
               <li>
                 <a href="#">
-                  <img src="{{site.baseurl}}assets/ico-tweeter.png" width="13" height="12" alt="">
+                  <img src="assets/ico-tweeter.png" width="13" height="12" alt="">
                 </a>
               </li>
 
               <li>
                 <a href="#">
-                  <img src="{{site.baseurl}}assets/ico-google.png" width="14" height="15" alt="">
+                  <img src="assets/ico-google.png" width="14" height="15" alt="">
                 </a>
               </li>
 
               <li>
                 <a href="#">
-                  <img src="{{site.baseurl}}assets/ico-pinterest.png" width="14" height="14" alt="">
+                  <img src="assets/ico-pinterest.png" width="14" height="14" alt="">
                 </a>
               </li>
 
@@ -95,7 +92,7 @@ title: NFL Cannabis Ban
           </div><!-- /.socials -->
         </div><!-- /.section__socials -->
       </div><!-- /.section__body -->
-      {% endfor %}
+      
 
       <div class="section__foot">
         <div class="form">
@@ -145,7 +142,7 @@ title: NFL Cannabis Ban
             <div class="form__actions">
               <button type="submit" class="btn btn--dark btn--block">
                 <i>
-                            <img src="{{site.baseurl}}assets/arrow-white-large.png" alt="" width="16" height="10">
+                            <img src="assets/arrow-white-large.png" alt="" width="16" height="10">
                           </i>
 
                           Send Your Message
@@ -156,47 +153,11 @@ title: NFL Cannabis Ban
 
         <div class="row">
           <div class="col-6 col-6--sm">
-            {% if page.previous.url %}
-            <div class="box">
-              <a href="{{page.previous.url}}.html" class="btn-black-new">
-                <span class="btn__box">
-                            <img src="{{site.baseurl}}assets/arrow-white-large.png" alt="" width="16" height="10">
-                </span>
-
-                <span class="btn__text">
-                  <span class="btn__subtitle">
-                    Previous
-                  </span>
-
-                  <span class="btn__title">
-                    {{page.previous.title}}
-                  </span>
-                </span>
-              </a>
-            </div><!-- /.box -->
-              {% endif %}
+            
           </div><!-- /.col-6 -->
 
           <div class="col-6 col-6--sm">
-            {% if page.next.url %}
-            <div class="box box--opposite">
-              <a href="{{page.next.url}}.html" class="btn-black-new btn-black-new--next">
-                <span class="btn__box">
-                            <img src="{{site.baseurl}}assets/arrow-white-large.png" alt="" width="16" height="10">
-                </span>
-
-                <span class="btn__text">
-                  <span class="btn__subtitle">
-                    Next
-                  </span>
-
-                  <span class="btn__title">
-                    {{page.next.title}}
-                  </span>
-                </span>
-              </a>
-            </div><!-- /.box -->
-            {% endif %}
+            
           </div><!-- /.col-6 -->
         </div><!-- /.row -->
       </div><!-- /.section__foot -->
@@ -205,13 +166,13 @@ title: NFL Cannabis Ban
 
   <section class="section-contacts">
     <div class="container">
-      <div class="section__head" style="background-image: url({{site.baseurl}}assets/contact-placehodler.png" | relative_url "}})">
+      <div class="section__head" style="background-image: url(assets/contact-placehodler.png" | relative_url "}})">
         <h1 class="section__title">
           Contact Us
         </h1><!-- /.section__title -->
 
         <div class="section__head-img">
-          <img src="{{site.baseurl}}assets/mask-black.png" alt="" width="127" height="145">
+          <img src="assets/mask-black.png" alt="" width="127" height="145">
         </div><!-- /.section__head-img -->
       </div><!-- /.section__head -->
 
@@ -319,7 +280,7 @@ title: NFL Cannabis Ban
               <div class="form__actions">
                 <button type="submit" class="btn btn--dark btn--block">
                   <i>
-                              <img src="{{site.baseurl}}assets/arrow-white-large.png" alt="" width="16" height="10">
+                              <img src="assets/arrow-white-large.png" alt="" width="16" height="10">
                             </i>
 
                             Send Your Message
