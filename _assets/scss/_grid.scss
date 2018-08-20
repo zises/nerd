@@ -11,6 +11,15 @@
   @include make-container-max-widths();
 }
 
+@media (min-width: 1200px) {
+  .container {
+      width: 100%;
+      max-width: 100%;
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+}
+
 .container-fluid {
   width: 100%;
   margin-left: auto;

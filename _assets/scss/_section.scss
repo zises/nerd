@@ -5,13 +5,12 @@
 .section-contacts {
   .section__head {
     position: relative;
-    display: flex;
-    align-items: center;
+    text-align: center;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 190px;
-    padding: 0 45px;
+    padding: 80px 45px;
     margin-bottom: 85px;
     color: $white;
 
@@ -60,7 +59,7 @@
   .section-contacts {
     .section__head {
       height: 100px;
-      padding: 0 15px;
+      padding: 35px 15px;
       margin-bottom: 15px;
     }
 
