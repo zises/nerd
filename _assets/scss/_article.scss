@@ -22,6 +22,35 @@
     max-width: 780px;
     margin-bottom: 34px;
   }
+
+  .list__post {
+    .item {
+      padding: 0 20px;
+      list-style-type: none;
+
+      .item__post {
+        padding: 20px 0;
+
+        .post__titel {
+          color: $grey-300;
+          font-family: $font-family-droid;
+          font-weight: 700;
+          font-style: italic;
+        }
+
+        .post__meta {
+          color: grey;
+        }
+      }
+    }    
+  }
+  .nav {
+    text-align: center;
+
+    .pagination {
+      padding: 0 20px;
+    }
+  }
 }
 
 @media (max-width: 767px) {

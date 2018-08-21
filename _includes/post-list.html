@@ -1,0 +1,16 @@
+{% if paginator.posts %}
+<div class="container">
+  <ul class="list__post">
+    {% for page in paginator.posts %}
+      <li class="item">
+        <div class="item__post">
+          <h3 class = "post__title"><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
+          {% include post-meta.html %}
+          {{ page.excerpt | markdownify | truncatewords: 60 }}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+  {% include post-pagination.html %}
+</div>
+{% endif %}
