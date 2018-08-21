@@ -8,7 +8,10 @@
     {% include header-blog.html %}
 
     <main class="site__content" aria-label="Content">
-      {{ content }}
+        {% include breadcrumb.html %}
+        <article class="article">
+			{% include post-list.html %}
+		</article>
     </main>
 
     {% include footer.html %}
