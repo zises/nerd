@@ -1,0 +1,54 @@
+<header class="header" role="banner">
+  <div class="container">
+
+    {% assign default_pages = site.pages | map: "path" %}
+    {% assign pages = site.navigation | default: default_pages %}
+
+    <a class="logo" href="{{ "/" | relative_url }}" title="Home page">
+      <img src="{{site.baseurl}}assets/logo.png" alt="" width="264" height="77">
+    </a>
+
+    <a href="#" class="btn-menu">
+      <span></span>
+
+      <span></span>
+
+      <span></span>
+    </a>
+
+    <div class="header__inner">
+      <nav class="nav">
+        <ul>
+          <li>
+            <a class="nav__item" href="/">Home</a>
+          </li>
+
+          <li>
+            <a class="nav__item" href="#about">About</a>
+          </li>
+
+          <li>
+            <a class="nav__item" href="#contact">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="socials">
+        <ul>
+          <li>
+            <a href="#">
+              <img src="{{site.baseurl}}assets/ico-tweeter.png" width="13" height="12" alt="">
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="{{site.baseurl}}assets/ico-instagram.png" width="12" height="14" alt="">
+            </a>
+          </li>
+        </ul>
+      </div><!-- /.socials -->
+    </div><!-- /.header__inner -->
+  </div><!-- /.container -->
+</header>

@@ -1,0 +1,86 @@
+# Site settings
+# -------------
+
+title: jekyll-webpack
+description: >-
+  A simple opinionated boilerplate for Jekyll.
+
+# Page settings
+url: ""
+baseurl: ""
+date_format: "%b %-d, %Y"
+google_analytics: 'UA-XXXXXXXX-X'
+
+# SEO settings
+email: clement.moron@gmail.com
+author: Clement Moron
+
+# Navigation settings
+# Add the pages you want to see in the navigation
+navigation:
+  - _pages/react.html
+
+# Build settings
+# --------------
+
+# Default markdown parser
+markdown: kramdown
+
+# Make sure that pages don't end up behind weird urls like:`_pages/myPage.html`
+collections:
+  pages:
+    output: true
+    permalink: /:path
+
+# Make sure the `_pages/` is processed
+include:
+  - _pages
+
+# Make sure the `_site/assets/` is not trashed (webpack output)
+keep_files:
+  - assets
+
+# Exclude from processing (not moved to `_site/`)
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - CNAME
+  - LICENSE
+  - README.md
+  - webpack.config.js
+  - "*.lock"
+  - "*.log"
+
+
+# List our Jekyll plugins below
+plugins:
+- jekyll-seo-tag
+- jekyll-feed
+- jekyll-paginate
+
+# Gem setting
+
+paginate: 2 # jekyll-paginate > items per page
+paginate_path: blog/page:num # jekyll-paginate > blog page
+
+permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+
+# 5. Collections
+collections:
+  posts:
+    title: Posts # Needed for Siteleaf
+    output: true
+    description: "My thoughts and ideas" # The post list page content
+    feature_text: |
+      Welcome to the blog
+    feature_image: "https://picsum.photos/2560/600?image=866"
+
+# 6. Jekyll collections settings
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      image: "/assets/default-social-image.png" # Default image for sharing

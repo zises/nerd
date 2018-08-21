@@ -1,0 +1,204 @@
+/* ------------------------------------------------------------ *\
+  Section Contacts
+\* ------------------------------------------------------------ */
+
+.section-contacts {
+  .section__head {
+    position: relative;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 190px;
+    padding: 80px 45px;
+    margin-bottom: 85px;
+    color: $white;
+
+    .section__head-img {
+      position: absolute;
+      left: 15px;
+      top: 43px;
+      transform: translateX(-50%);
+    }
+  }
+
+  .section__body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+
+  .section__aside {
+    width: 34%;
+    padding: 0 20px 0 0;
+  }
+
+  .section__content {
+    width: 66%;
+  }
+
+  .section__title {
+    font-size: 55px;
+    margin: 0;
+  }
+}
+
+@media(max-width: 991px) {
+  .section-contacts {
+    .section__head {
+      .section__head-img {
+        display: none;
+      }
+    }
+  }
+}
+
+@media(max-width: 767px) {
+  .section-contacts {
+    .section__head {
+      height: 100px;
+      padding: 35px 15px;
+      margin-bottom: 15px;
+    }
+
+    .section__title {
+      font-size: 32px;
+    }
+
+    .section__body {
+      display: block;
+    }
+
+    .section__aside {
+      width: 100%;
+      padding: 0;
+    }
+
+    .section__content {
+      width: 100%;
+    }
+  }
+}
+
+/* ------------------------------------------------------------ *\
+  Section Podcast
+\* ------------------------------------------------------------ */
+
+.section-podcast {
+  margin: -20px 0 30px;
+
+  .section__date {
+    margin-bottom: 26px;
+    font-size: 12px;
+    color: $grey-275;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .section__image {
+    margin-bottom: 43px;
+    text-align: center;
+  }
+
+  .section__title {
+    margin-bottom: 13px;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+
+  .section__author {
+    font-family: $font-family-droid;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    font-size: 12px;
+    color: $grey-350;
+
+    a {
+      color: $yellow;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .section__entry {
+    margin-bottom: 32px;
+    font-family: $font-family-droid;
+    font-style: italic;
+    color: $grey-350;
+  }
+
+  .section__socials {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    border-width: 2px 0;
+    border-style: solid;
+    border-color: $grey-600;
+
+    .section__socials-title {
+      position: relative;
+      margin: 0;
+      font-size: 13px;
+      font-family: $font-family-droid;
+      font-weight: 700;
+      font-style: italic;
+      color: $grey-350;
+
+      &:after {
+        content: '';
+        position: absolute;
+        top: 1px;
+        right: -37px;
+        display: block;
+        width: 2px;
+        height: 16px;
+        background-color: $grey-550;
+      }
+    }
+
+    .socials {
+      ul {
+        padding: 0 0 4px 70px;
+      }
+
+      li + li {
+        margin-left: 19px;
+      }
+    }
+  }
+
+  .section__body {
+    margin-bottom: 34px;
+  }
+
+  .section__foot .form {
+    margin-bottom: 20px;
+  }
+}
+
+
+@media(max-width: 767px){
+  .section-podcast {
+    margin: 20px 0 30px;
+
+    .section__image {
+      margin-bottom: 20px;
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+
+    .section__date {
+      margin-bottom: 10px;
+    }
+  }
+}

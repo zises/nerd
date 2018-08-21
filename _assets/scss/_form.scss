@@ -1,0 +1,72 @@
+/* ------------------------------------------------------------ *\
+  Form
+\* ------------------------------------------------------------ */
+
+.form {
+  padding: 50px 48px;
+  background-color: $grey-900;
+
+  .form__head {
+    position: relative;
+    margin-bottom: 40px;
+
+    &:after, &:before {
+      content: '';
+      position: absolute;
+      bottom: -8px;
+      left: -8px;
+      display: block;
+      width: 30px;
+      height: 2px;
+      background-color: $black;
+    }
+
+    &:before {
+      left: 24px;
+      width: 2px;
+    }
+  }
+
+  .form__title {
+    text-transform: uppercase;
+    letter-spacing: 0.145em;
+    font-size: 14px;
+  }
+
+  .form__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px 30px;
+  }
+
+  .form__col {
+    width: 50%;
+    padding: 0 15px;
+  }
+
+  .form__label {
+    color: $grey-250;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+  }
+
+  .form__actions {
+    padding-top: 37px;
+  }
+}
+
+@media (max-width: 767px) {
+  .form {
+    padding: 30px 20px;
+
+    .form__row {
+      margin: 0 -15px 0;
+    }
+
+    .form__col {
+      width: 100%;
+      margin: 0 0 15px;
+    }
+  }
+}

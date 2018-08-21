@@ -1,0 +1,253 @@
+/* ------------------------------------------------------------ *\
+  Article
+\* ------------------------------------------------------------ */
+
+.article {
+  padding: 92px 0;
+  max-width: 1185px;
+  margin: 0 auto;
+
+  .article__title {
+    color: $grey-300;
+    font-family: $font-family-droid;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .article__head {
+    margin-bottom: 18px;
+  }
+
+  .article__body {
+    max-width: 780px;
+    margin-bottom: 34px;
+  }
+
+  .list__post {
+    .item {
+      padding: 0 20px;
+      list-style-type: none;
+
+      .item__post {
+        padding: 20px 0;
+
+        .post__titel {
+          color: $grey-300;
+          font-family: $font-family-droid;
+          font-weight: 700;
+          font-style: italic;
+        }
+
+        .post__meta {
+          color: grey;
+        }
+      }
+    }    
+  }
+  .nav {
+    text-align: center;
+
+    .pagination {
+      padding: 0 20px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .article {
+    padding: 50px 0;
+  }
+}
+
+
+/* ------------------------------------------------------------ *\
+  Article Large
+\* ------------------------------------------------------------ */
+
+.article-large {
+  padding: 36px 0;
+
+  & + .article-large {
+    margin-top: 160px;
+  }
+
+  .container {
+    position: relative;
+    max-width: 1180px;
+    text-align: right;
+  }
+
+  .article__image {
+    position: absolute;
+    top: -165px;
+    right: 0;
+  }
+
+  .article__content {
+    position: relative;
+    width: 47%;
+  }
+
+  .article__shell {
+    display: inline-block;
+    width: 265px;
+    text-align: left;
+  }
+
+  .article__date {
+    margin-bottom: 12px;
+    font-size: 11px;
+    font-family: $font-family-droid;
+    color: $grey-350;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .article__entry {
+    font-size: 14px;
+    font-family: $font-family-droid;
+    color: $grey-350;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .article__actions {
+    padding-top: 28px;
+  }
+}
+
+.article-large:nth-child(2) {
+  .article__image {
+    top: -150px;
+    right: auto;
+    left: 0;
+  }
+
+  .article__content {
+    width: 47%;
+    padding-top: 20px;
+    margin-left: 53%;
+  }
+
+  .article__title {
+    text-align: left;
+  }
+}
+
+@media (max-width: 1199px) {
+  .article-large {
+    & + .article-large {
+      margin-top: 80px;
+    }
+
+    .article__image {
+      max-width: 350px;
+      top: -50px;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .article__content {
+      max-width: 50%;
+    }
+  }
+
+  .article-large:nth-child(2) {
+    .article__image {
+      max-width: 350px;
+      top: -50px;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .article__content {
+      width: 47%;
+      padding-top: 0;
+      margin-left: 53%;
+    }
+  }
+}
+
+@media(max-width: 767px) {
+  .article-large {
+    & + .article-large {
+      margin-top: 20px;
+    }
+
+    .article__image {
+      position: static;
+      max-width: 100%;
+      width: 100%;
+      padding: 0 20%;
+    }
+
+    .article__content {
+      padding-top: 10px;
+      max-width: 100%;
+      width: 100% !important;
+      margin-left: 0 !important;
+    }
+
+    .article__title {
+      text-align: left;
+    }
+
+    .article__actions {
+      padding-top: 10px;
+    }
+
+    .article__shell {
+      width: 100%;
+    }
+  }
+  .article-large:nth-child(2) {
+    .article__image {
+      position: static;
+      max-width: 100%;
+      width: 100%;
+      padding: 0 20%;
+    }
+  }
+}
+
+
+/* ------------------------------------------------------------ *\
+  Articles
+\* ------------------------------------------------------------ */
+
+.articles {
+  margin-bottom: 75px;
+
+  .articles__body {
+    margin-bottom: 200px;
+  }
+
+  .articles__actions {
+    padding: 80px 0 0;
+    text-align: center;
+  }
+}
+@media (max-width: 1199px) {
+  .articles {
+    .articles__body {
+      margin-bottom: 100px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .articles {
+    .articles__body {
+      margin-bottom: 0;
+    }
+
+    .articles__actions {
+      padding: 20px 0 0;
+    }
+  }
+}

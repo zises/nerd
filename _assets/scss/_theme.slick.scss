@@ -1,0 +1,77 @@
+/* ------------------------------------------------------------ *\
+  Slick
+\* ------------------------------------------------------------ */
+
+.slick-arrow {
+  position: absolute;
+  top: calc(50% - 50px);
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background-color: $grey-100;
+  line-height: 0;
+  font-size: 0;
+  border: 0;
+  outline: none!important;
+  transition: opacity .3s;
+
+  &:before, &:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 5px 8px;
+    border-color: transparent transparent transparent $white;
+  }
+
+  &:after {
+    border-width: 2px 0 2px 3px;
+    border-color: transparent transparent transparent $grey-100;
+  }
+
+  &:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+}
+
+.slick-prev {
+  top: 50%;
+  right: 0;
+  z-index: 10;
+  background-color: $yellow;
+
+  &:before {
+    border-width: 5px 8px 5px 0;
+    border-color: transparent $white transparent transparent;
+  }
+
+  &:after {
+    border-width: 2px 3px 2px 0;
+    border-color: transparent $yellow transparent transparent;
+  }
+}
+
+@media(max-width: 1530px) {
+  .slick-arrow {
+    right: 0;
+  }
+}
+
+@media(max-width: 767px) {
+  .slick-arrow {
+    right: calc(50%);
+    top: auto;
+    height: 40px;
+    width: 40px;
+    bottom: -13px;
+  }
+
+  .slick-next {
+    right: calc(50% - 40px);
+  }
+}

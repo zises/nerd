@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: page.lang | default: 'en' }}">
+
+  {% include head.html %}
+
+  <body class="site">
+
+    {% include header-blog.html %}
+
+    <main class="site__content" aria-label="Content">
+		{% include breadcrumb.html %}
+		<div class="main">
+		  <section class="section-podcast">
+		    <div class="container container--small">
+		      <div class="section__head">
+		        <p class="section__date" style="padding-top: 40px;">
+		          	<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+					{% assign date_format = site.date_format | default: "%b %-d, %Y" %}
+					{{ page.date | date: date_format }}
+					</time>
+		        </p><!-- /.section__date -->
+
+		        <div class="section__image">
+		          <img src="{{site.baseurl}}assets/podacast.png" width="570" height="296" alt="">
+		        </div><!-- /.section__image -->
+		      </div><!-- /.section__head -->
+
+		      <div class="section__body">
+		        <h3 class="section__title">
+
+		          {{page.title}}
+
+		        </h3><!-- /.section__title -->
+
+		        <p class="section__author">
+		          By: <a href="#">{{page.author}}</a>
+		        </p><!-- /.section__author -->
+
+		        <div class="section__entry">
+		          {{ page.content }}
+		        </div><!-- /.section__entry -->
+
+		        {% include social-share.html %}
+		      </div><!-- /.section__body -->
+
+		      {% include post-comment.html %}
+		    </div><!-- /.container -->
+		  </section><!-- /.section-podcast -->
+
+		 <div class="bar-nav">
+		  	<div class="container">
+		    	<a href="blog" class="btn-back">
+		    		<span></span>
+		    		All Posts
+		    	</a>
+		  </div><!-- /.container -->
+		</div><!-- /.main -->
+
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
