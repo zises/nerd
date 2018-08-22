@@ -2,7 +2,11 @@
 
 A simple opinionated boilerplate for Jekyll.
 
-Typically you would `npm build` then upload the result to Amazon S3, Github pages, or an FTP server of your choosing.
+Typically you would `npm run build` then upload the result to Amazon S3, Github pages, or an FTP server of your choosing.
+
+Before running `npm run build`, you have to confirm `baseurl` in `_config.yml` file.
+You have to change that you would deploy as a weburl.
+	ex: `baseurl: "https://xxx.github.io/nerd/"`
 
 ## Why ?
 
@@ -24,7 +28,7 @@ Because using an additional tool for managing your dependencies (`.js`, `.css`, 
 
 7. `npm start`
 
-Simply use `npm start` or ` npm build`:
+Simply use `npm start` or ` npm run build`:
 
 ```sh
 # Start Jekyll and Webpack in --watch mode
@@ -32,10 +36,10 @@ Simply use `npm start` or ` npm build`:
 npm start
 
 # Build files → `_site/`
-npm build
+npm run build
 
 # Build files → `_site/` with --verbose
-npm build:debug
+npm run build:debug
 ```
 
 If you have any problems, make sure you have `Bundler` and `Jekyll` installed (see this [quickstart](https://jekyllrb.com/docs/quickstart/)) then clone the repo and `npm install`.
