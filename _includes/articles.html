@@ -14,7 +14,7 @@
       </div><!-- /.article__body -->
 
       <div class="article__actions">
-        <a href="blog" class="btn-link">
+        <a href="{{site.baseurl}}blog" class="btn-link">
           read More
           <i>
             <img src="{{site.baseurl}}assets/arrow-grey.png" alt="" width="16" height="10">
@@ -29,7 +29,7 @@
     <article class="article-large">
       <div class="container">
         <div class="article__image">
-          <img src="{{ post.image }}" class="img-responsive" alt="{{ post.title }}" width="{{post.image-width}}" height="{{post.image-height}}">
+          <img src="{{site.baseurl}}{{ post.image }}" class="img-responsive" alt="{{ post.title }}" width="{{post.image-width}}" height="{{post.image-height}}">
         </div><!-- /.article__image -->
 
         <div class="article__content">
@@ -65,7 +65,7 @@
 
   <div class="articles__actions">
     <div class="container">
-      <a href="blog" class="btn-link">
+      <a href="{{site.baseurl}}blog" class="btn-link">
         Load More Projects
       </a>
     </div><!-- /.container -->
