@@ -7,7 +7,7 @@ description: >-
 
 # Page settings
 url: ""
-baseurl: ""
+baseurl: "https://darkoarnautov.github.io/nerd/"
 date_format: "%b %-d, %Y"
 google_analytics: 'UA-XXXXXXXX-X'
 
@@ -67,20 +67,3 @@ paginate_path: blog/page:num # jekyll-paginate > blog page
 
 permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
 
-# 5. Collections
-collections:
-  posts:
-    title: Posts # Needed for Siteleaf
-    output: true
-    description: "My thoughts and ideas" # The post list page content
-    feature_text: |
-      Welcome to the blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
-
-# 6. Jekyll collections settings
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      image: "/assets/default-social-image.png" # Default image for sharing
