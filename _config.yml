@@ -6,14 +6,14 @@ description: >-
   A simple opinionated boilerplate for Jekyll.
 
 # Page settings
-url: ""
-baseurl: "https://darkoarnautov.github.io/nerd/"
+url: "http://pheno33.com"
+baseurl: "http://zises.github.io/nerd"
 date_format: "%b %-d, %Y"
 google_analytics: 'UA-XXXXXXXX-X'
 
 # SEO settings
-email: clement.moron@gmail.com
-author: Clement Moron
+email: bryan@zis.es
+author: Bryan Zises
 
 # Navigation settings
 # Add the pages you want to see in the navigation
