@@ -44,9 +44,6 @@ npm run build:debug
 
 If you have any problems, make sure you have `Bundler` and `Jekyll` installed (see this [quickstart](https://jekyllrb.com/docs/quickstart/)) then clone the repo and `npm install`.
 
-## Github Page URL
-https://darkoarnautov.github.io/nerd/
-
 ## Includes
 
 * [Jekyll](https://jekyllrb.com/)
