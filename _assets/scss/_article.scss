@@ -45,6 +45,8 @@
     }    
   }
   .nav {
+    margin-bottom: -150px;
+    padding-top: 100px;
     text-align: center;
 
     .pagination {
@@ -122,7 +124,7 @@
   }
 }
 
-.article-large:nth-child(2) {
+.article-large:nth-child(2n) {
   .article__image {
     top: -90px;
     right: auto;

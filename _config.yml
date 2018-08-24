@@ -7,8 +7,8 @@ description: >-
 
 # Page settings
 url: ""
-#baseurl: "http://localhost:3000/"
-baseurl: "https://darkoarnautov.github.io/nerd/"
+baseurl: "http://localhost:3000/"
+#baseurl: "https://darkoarnautov.github.io/nerd/"
 date_format: "%b %-d, %Y"
 google_analytics: 'UA-XXXXXXXX-X'
 
@@ -31,7 +31,7 @@ markdown: kramdown
 collections:
   pages:
     output: true
-    permalink: /:path
+    permalink: ./:path
 
 # Make sure the `_pages/` is processed
 include:
@@ -53,7 +53,7 @@ exclude:
   - webpack.config.js
   - "*.lock"
   - "*.log"
-
+  
 
 # List our Jekyll plugins below
 plugins:
@@ -62,8 +62,8 @@ plugins:
 - jekyll-paginate
 
 # Gem setting
-
-paginate: 2 # jekyll-paginate > items per page
+langing_post_num: 2 # define number of post in landing page
+paginate: 4 # jekyll-paginate > items per page
 paginate_path: blog/page:num # jekyll-paginate > blog page
 
 permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
