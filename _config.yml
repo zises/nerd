@@ -1,9 +1,9 @@
 # Site settings
 # -------------
 
-title: jekyll-webpack
+title: Cannabinerd
 description: >-
-  A simple opinionated boilerplate for Jekyll.
+  The Cannabis report
 
 # Page settings
 url: "http://pheno33.com"
@@ -30,7 +30,7 @@ markdown: kramdown
 collections:
   pages:
     output: true
-    permalink: /:path
+    permalink: ./:path
 
 # Make sure the `_pages/` is processed
 include:
@@ -52,7 +52,7 @@ exclude:
   - webpack.config.js
   - "*.lock"
   - "*.log"
-
+  
 
 # List our Jekyll plugins below
 plugins:
@@ -61,9 +61,15 @@ plugins:
 - jekyll-paginate
 
 # Gem setting
-
-paginate: 2 # jekyll-paginate > items per page
+langing_post_num: 2 # define number of post in landing page
+paginate: 4 # jekyll-paginate > items per page
 paginate_path: blog/page:num # jekyll-paginate > blog page
 
 permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+
+email:          bryan@zis.es
+subtitle:       your-podcast-subtitle
+lang:           en
+author:         Bryan Zises
+copyright:      "&#x2117; &amp; &#xA9; 2015"
 

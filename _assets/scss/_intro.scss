@@ -41,6 +41,12 @@
 
     &--small {
       font-size: 55px;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 1;
+      display: -webkit-box;
+      height: 60px;
+      line-height: 60px;
+      overflow: hidden;
       margin-bottom: 60px;
     }
   }
