@@ -44,16 +44,36 @@ npm run build:debug
 
 If you have any problems, make sure you have `Bundler` and `Jekyll` installed (see this [quickstart](https://jekyllrb.com/docs/quickstart/)) then clone the repo and `npm install`.
 
-## Includes
+## Podcast Feed Settings
+You may ignore information you already have like title, url and such
 
-* [Jekyll](https://jekyllrb.com/)
-* [Webpack](https://webpack.js.org/) (no one wants to write ES5 anymore)
-* [BrowserSync](https://www.browsersync.io/) (mobile and x-browser testing)
-* [React](https://reactjs.org/)
-* [Sass](http://sass-lang.com/)
-* [PostCSS](https://github.com/postcss/postcss) (mostly for [autoprefixer](https://github.com/postcss/autoprefixer))
+```
+title:          your-site-title
+email:          your-podcast-contact-email
+description:    "your-podcast-description"
+subtitle:       "your-podcast-subtitle"
+url:            your-podcast-url
+lang:           your-language-code
+author:         your-name
+copyright:      "&#x2117; &amp; &#xA9; 2015"
 
-Consistency is achieved on each commit with `lint-staged` and the following helpers:
-* [Prettier](https://github.com/prettier/prettier)
-* [ESLint](https://eslint.org/) (with [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb))
-* [EditorConfig](http://editorconfig.org/)
+```
+
+## Example Post YAML
+```
+---
+layout: post
+title: "Podcast Title"
+date: 2015-12-23 14:37:00
+file: //path-to-your/file.mp3
+file_itunes: //path-to-your/file.m4a
+excerpt: Write an excerpt here. Remeber that you should xml escape special characters. If you are german: don't use umlauts here.
+summary: Write a summary here. Remeber that you should xml escape special characters. If you are german: don't use umlauts here.
+duration: "14:50" #audio length in min
+length: "14459510" #filesize in byte
+explicit: "yes" #other option is no
+block: "no" #means is shown in itunes
+---
+
+```
+

@@ -1,9 +1,9 @@
 # Site settings
 # -------------
 
-title: jekyll-webpack
+title: Cannabinerd
 description: >-
-  A simple opinionated boilerplate for Jekyll.
+  The Cannabis report
 
 # Page settings
 url: ""
@@ -67,4 +67,10 @@ paginate: 4 # jekyll-paginate > items per page
 paginate_path: blog/page:num # jekyll-paginate > blog page
 
 permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+
+email:          bryan@zis.es
+subtitle:       your-podcast-subtitle
+lang:           en
+author:         Bryan Zises
+copyright:      "&#x2117; &amp; &#xA9; 2015"
 
