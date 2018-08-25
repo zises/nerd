@@ -13,8 +13,7 @@ date_format: "%b %-d, %Y"
 google_analytics: 'UA-XXXXXXXX-X'
 
 # SEO settings
-email: clement.moron@gmail.com
-author: Clement Moron
+
 
 # Navigation settings
 # Add the pages you want to see in the navigation
@@ -72,5 +71,5 @@ email:          bryan@zis.es
 subtitle:       your-podcast-subtitle
 lang:           en
 author:         Bryan Zises
-copyright:      "&#x2117; &amp; &#xA9; 2015"
+copyright:      "2018"
 
