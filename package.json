@@ -1,12 +1,12 @@
 {
-  "name": "clenemt.com",
+  "name": "Cannabinerd.com",
   "version": "0.0.1",
-  "description": "Source code for clenemt.com",
-  "email": "clement.moron@gmail.com",
-  "url": "http://www.clenemt.com/",
+  "description": "Cannabinerd",
+  "email": "bryan@zis.es",
+  "url": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/clenemt/clenemt.com.git"
+    "url": "https://github.com/zises/nerd"
   },
   "license": "MIT",
   "main": "assets/js/entry.js",
@@ -29,7 +29,7 @@
     "lint": "eslint",
     "lint:staged": "lint-staged",
     "clean": "shx rm -rf _site/",
-    "scaffold": "npm run clean && shx mkdir -p _site/assets && shx cp -r _assets/img/. _site/assets",
+    "scaffold": "npm run clean && shx mkdir -p _site/assets && shx cp -r _assets/img/. _site/assets && shx cp -r _assets/audio/. _site/assets/audio",
     "build": "npm run scaffold && cross-env NODE_ENV=production webpack -p --progress && bundle exec jekyll build",
     "build:debug": "npm run scaffold && webpack --progress -d --verbose && bundle exec jekyll build -t",
     "start": "npm run scaffold && concurrently -k -n \"WEBPACK,JEKYLL,BROWSER-SYNC\" -c \"bgBlue.bold,bgRed.bold,bgCyan.bold\" \"webpack -w\" \"bundle exec jekyll build --watch\" \"browser-sync start -s _site -f _site --extensions html\""

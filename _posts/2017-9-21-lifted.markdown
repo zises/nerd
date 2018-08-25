@@ -3,6 +3,11 @@ layout: post
 title:  "LIFTED Why Drug Addiction &amp; Brain Injury Warrent Lifting the NFL’s Cannabis Ban"
 date:   Sept 20, 2017
 date-short:   9.20.17
+file: assets/audio/WKJ043.mp3
+duration: "7:45" 
+length: "7630849"
+explicit: "yes" 
+block: "no"
 categories: blog update
 author:   Richard Park
 resume: Interview with former Ravens tackle Eugene Monroe.

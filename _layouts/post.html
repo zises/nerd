@@ -31,10 +31,19 @@
 		        <p class="section__author">
 		          By: <a href="#">{{page.author}}</a>
 		        </p><!-- /.section__author -->
-
+		        <audio controls>
+					<source src="{{site.baseurl}}{{ page.file }}" type="audio/mpeg">
+				</audio>
+				<div class="podcast-details">
+					<p class="post-meta">
+						{% assign bytes = page.length | divided_by: 1024 | divided_by: 1024 | round: 2 %}
+						<a href="{{site.baseurl}}{{ page.file }}">Download</a> • {{bytes}}MB • {{page.duration}}
+					</p>
+				</div>
 		        <div class="section__entry">
 		          {{ page.content }}
 		        </div><!-- /.section__entry -->
+		        
 
 		        {% include social-share.html %}
 		      </div><!-- /.section__body -->
