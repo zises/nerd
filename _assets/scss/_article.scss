@@ -31,7 +31,6 @@
 
         .post__title {
           color: black;
-          font-family: $font-family-droid;
           font-weight: 700;
         }
 
@@ -102,7 +101,6 @@
   .article__date {
     margin-bottom: 12px;
     font-size: 11px;
-    font-family: $font-family-droid;
     color: $grey-350;
     font-weight: 700;
     font-style: italic;
@@ -110,7 +108,6 @@
 
   .article__entry {
     font-size: 14px;
-    font-family: $font-family-droid;
     color: $grey-350;
     font-weight: 700;
     font-style: italic;
