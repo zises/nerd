@@ -6,6 +6,7 @@ date-short:   9.9.17
 categories: blog update
 author:   Richard Park
 resume: Our first sit down with Biolitics podcast; Cannabinerds from Dispensary33 and New Age Care.
+header-image: assets/intro.png
 image: assets/hex2.png
 image-height: 645
 image-width: 568

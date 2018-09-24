@@ -11,6 +11,7 @@ block: "no"
 categories: blog update
 author:   Richard Park
 resume: Interview with former Ravens tackle Eugene Monroe.
+header-image: assets/intro.png
 image: assets/hex.png
 image-height: 645
 image-width: 571

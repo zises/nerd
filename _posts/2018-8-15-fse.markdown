@@ -6,6 +6,7 @@ date-short:   9.5.17
 categories: blog update
 author:   Richard Park
 resume: Learn the painstaking process of creating diamonds & terp sauce.
+header-image: assets/intro-blog.jpg
 image: assets/hex3.png
 image-height: 645
 image-width: 568
