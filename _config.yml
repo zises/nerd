@@ -67,9 +67,9 @@ paginate_path: blog/page:num # jekyll-paginate > blog page
 
 permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
 
-email:          bryan@zis.es
+email:          richard@dispensary33.com
 subtitle:       your-podcast-subtitle
 lang:           en
-author:         Bryan Zises
+author:         Richard Park
 copyright:      "2018"
 
