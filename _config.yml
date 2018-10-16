@@ -1,13 +1,13 @@
 # Site settings
 # -------------
 
-title: Cannabinerd
+title: Richard Park's Cannabinerd Podcast
 description: >-
   The Cannabis report
 
 # Page settings
-url: ""
-baseurl: "http://localhost:3000/"
+url: "http://cannabinerd.org"
+baseurl: "https://zises.github.io/nerd/"
 #baseurl: "https://darkoarnautov.github.io/nerd/"
 date_format: "%b %-d, %Y"
 google_analytics: 'UA-XXXXXXXX-X'
