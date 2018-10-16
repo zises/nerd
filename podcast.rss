@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="en">
 	<channel>
-		<atom:link href="http://localhost:3000//podcast.rss" rel="self" type="application/rss+xml" />
-		<title>Cannabinerd</title>
+		<atom:link href="https://zises.github.io/nerd//podcast.rss" rel="self" type="application/rss+xml" />
+		<title>Richard Park's Cannabinerd Podcast</title>
 		<description>The Cannabis report</description>
-		<link>http://localhost:3000/</link>
+		<link>https://zises.github.io/nerd/</link>
 		<language>en</language>
 		<managingEditor>richard@dispensary33.com (Richard Park)</managingEditor>
 		<webMaster>richard@dispensary33.com (Richard Park)</webMaster>
-		<copyright>2018 Cannabinerd</copyright>
+		<copyright>2018 Richard Park's Cannabinerd Podcast</copyright>
 		<pubDate>Wed, 31 Dec 1969 18:33:38 -0600</pubDate>
 		<lastBuildDate>Wed, 31 Dec 1969 18:33:38 -0600</lastBuildDate>
 		<image>
-			<link>http://localhost:3000/</link>
-			<url>http://localhost:3000/assets/logo.png</url>
-			<title>Cannabinerd</title>
+			<link>https://zises.github.io/nerd/</link>
+			<url>https://zises.github.io/nerd/assets/logo.png</url>
+			<title>Richard Park's Cannabinerd Podcast</title>
 		</image>
 		<itunes:subtitle>The Cannabis report</itunes:subtitle>
 		<itunes:author>Richard Park</itunes:author>
@@ -24,7 +24,7 @@
 			<itunes:name>Richard Park</itunes:name>
 			<itunes:email>richard@dispensary33.com</itunes:email>
 		</itunes:owner>
-		<itunes:image href="http://localhost:3000//images/itunes.png" />
+		<itunes:image href="https://zises.github.io/nerd//images/itunes.png" />
 		<itunes:category text="Music" />
 		<itunes:category text="Technology">
 			<itunes:category text="Podcasting" />
@@ -36,144 +36,144 @@
 		
 			<item>
 				<title>LIFTED Why Drug Addiction &amp;amp; Brain Injury Warrent Lifting the NFL’s Cannabis Ban</title>
-				<link>http://localhost:3000//blog/update/2017/09/20/lifted/</link>
+				<link>https://zises.github.io/nerd//blog/update/2017/09/20/lifted/</link>
 				<pubDate>Wed, 20 Sep 2017 00:00:00 -0500</pubDate>
 				<description>&lt;p&gt;These form when moisture from a drippy glass or a hot dish gets trapped in the finish. To remove a long-standing stain, place a towel on top and press with a warm, dry iron for five to 10 seconds — this will soften the finish enough to release the moisture. Candle wax and crayon respond well to ice. Fill a plastic bag with ice cubes, wrap it in a towel, and place it on the stain until it hardens (a few minutes); carefully coax wax off with a plastic spatula or a credit card.&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:3000//blog/update/2017/09/20/lifted/</guid>
-				<enclosure url="http://localhost:3000/assets/audio/WKJ043.mp3" length="7630849" type="audio/mp3"/>
+				<guid isPermaLink="true">https://zises.github.io/nerd//blog/update/2017/09/20/lifted/</guid>
+				<enclosure url="https://zises.github.io/nerd/assets/audio/WKJ043.mp3" length="7630849" type="audio/mp3"/>
 				<itunes:author>Richard Park</itunes:author>
-				<itunes:subtitle>Cannabinerd: LIFTED Why Drug Addiction &amp; Brain Injury Warrent Lifting the NFL’s Cannabis Ban</itunes:subtitle>
+				<itunes:subtitle>Richard Park's Cannabinerd Podcast: LIFTED Why Drug Addiction &amp; Brain Injury Warrent Lifting the NFL’s Cannabis Ban</itunes:subtitle>
 				<itunes:summary></itunes:summary>
 				<itunes:duration>7:45</itunes:duration>
 				<itunes:keywords></itunes:keywords>
-				<itunes:image href="http://localhost:3000//images/itunes.png" />
+				<itunes:image href="https://zises.github.io/nerd//images/itunes.png" />
 				<itunes:explicit>yes</itunes:explicit>
 				<itunes:block>no</itunes:block>
 			</item>
 		
 			<item>
 				<title>LIFTED Why Drug Addiction &amp;amp; Brain Injury Warrent Lifting the NFL’s Cannabis Ban</title>
-				<link>http://localhost:3000//blog/update/2017/09/20/lifted/</link>
+				<link>https://zises.github.io/nerd//blog/update/2017/09/20/lifted/</link>
 				<pubDate>Wed, 20 Sep 2017 00:00:00 -0500</pubDate>
 				<description>&lt;p&gt;These form when moisture from a drippy glass or a hot dish gets trapped in the finish. To remove a long-standing stain, place a towel on top and press with a warm, dry iron for five to 10 seconds — this will soften the finish enough to release the moisture. Candle wax and crayon respond well to ice. Fill a plastic bag with ice cubes, wrap it in a towel, and place it on the stain until it hardens (a few minutes); carefully coax wax off with a plastic spatula or a credit card.&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:3000//blog/update/2017/09/20/lifted/</guid>
-				<enclosure url="http://localhost:3000/" length="" type="audio/mp3"/>
+				<guid isPermaLink="true">https://zises.github.io/nerd//blog/update/2017/09/20/lifted/</guid>
+				<enclosure url="https://zises.github.io/nerd/" length="" type="audio/mp3"/>
 				<itunes:author>Richard Park</itunes:author>
-				<itunes:subtitle>Cannabinerd: LIFTED Why Drug Addiction &amp; Brain Injury Warrent Lifting the NFL’s Cannabis Ban</itunes:subtitle>
+				<itunes:subtitle>Richard Park's Cannabinerd Podcast: LIFTED Why Drug Addiction &amp; Brain Injury Warrent Lifting the NFL’s Cannabis Ban</itunes:subtitle>
 				<itunes:summary></itunes:summary>
 				<itunes:duration></itunes:duration>
 				<itunes:keywords></itunes:keywords>
-				<itunes:image href="http://localhost:3000//images/itunes.png" />
+				<itunes:image href="https://zises.github.io/nerd//images/itunes.png" />
 				<itunes:explicit></itunes:explicit>
 				<itunes:block></itunes:block>
 			</item>
 		
 			<item>
 				<title>LIFTED Why Drug Addiction &amp;amp; Brain Injury Warrent Lifting the NFL’s Cannabis Ban</title>
-				<link>http://localhost:3000//blog/update/2017/09/20/lifted-(copy)/</link>
+				<link>https://zises.github.io/nerd//blog/update/2017/09/20/lifted-(copy)/</link>
 				<pubDate>Wed, 20 Sep 2017 00:00:00 -0500</pubDate>
 				<description>&lt;p&gt;These form when moisture from a drippy glass or a hot dish gets trapped in the finish. To remove a long-standing stain, place a towel on top and press with a warm, dry iron for five to 10 seconds — this will soften the finish enough to release the moisture. Candle wax and crayon respond well to ice. Fill a plastic bag with ice cubes, wrap it in a towel, and place it on the stain until it hardens (a few minutes); carefully coax wax off with a plastic spatula or a credit card.&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:3000//blog/update/2017/09/20/lifted-(copy)/</guid>
-				<enclosure url="http://localhost:3000/" length="" type="audio/mp3"/>
+				<guid isPermaLink="true">https://zises.github.io/nerd//blog/update/2017/09/20/lifted-(copy)/</guid>
+				<enclosure url="https://zises.github.io/nerd/" length="" type="audio/mp3"/>
 				<itunes:author>Richard Park</itunes:author>
-				<itunes:subtitle>Cannabinerd: LIFTED Why Drug Addiction &amp; Brain Injury Warrent Lifting the NFL’s Cannabis Ban</itunes:subtitle>
+				<itunes:subtitle>Richard Park's Cannabinerd Podcast: LIFTED Why Drug Addiction &amp; Brain Injury Warrent Lifting the NFL’s Cannabis Ban</itunes:subtitle>
 				<itunes:summary></itunes:summary>
 				<itunes:duration></itunes:duration>
 				<itunes:keywords></itunes:keywords>
-				<itunes:image href="http://localhost:3000//images/itunes.png" />
+				<itunes:image href="https://zises.github.io/nerd//images/itunes.png" />
 				<itunes:explicit></itunes:explicit>
 				<itunes:block></itunes:block>
 			</item>
 		
 			<item>
 				<title>BIOLITICS Studio ft. Dispensary33 &amp;amp; NAC</title>
-				<link>http://localhost:3000//blog/update/2017/09/09/biolitics/</link>
+				<link>https://zises.github.io/nerd//blog/update/2017/09/09/biolitics/</link>
 				<pubDate>Sat, 09 Sep 2017 00:00:00 -0500</pubDate>
 				<description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, nesciunt blanditiis delectus deserunt voluptate, sit fugit nulla corporis quam consequuntur error, quasi, numquam eius ullam. Iste praesentium quas reprehenderit, ex tenetur adipisci dolorum autem, quidem voluptatum explicabo veniam esse. Mollitia ipsum maxime consequatur asperiores cum. Reprehenderit error ipsum consequuntur esse!&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:3000//blog/update/2017/09/09/biolitics/</guid>
-				<enclosure url="http://localhost:3000/" length="" type="audio/mp3"/>
+				<guid isPermaLink="true">https://zises.github.io/nerd//blog/update/2017/09/09/biolitics/</guid>
+				<enclosure url="https://zises.github.io/nerd/" length="" type="audio/mp3"/>
 				<itunes:author>Richard Park</itunes:author>
-				<itunes:subtitle>Cannabinerd: BIOLITICS Studio ft. Dispensary33 &amp; NAC</itunes:subtitle>
+				<itunes:subtitle>Richard Park's Cannabinerd Podcast: BIOLITICS Studio ft. Dispensary33 &amp; NAC</itunes:subtitle>
 				<itunes:summary></itunes:summary>
 				<itunes:duration></itunes:duration>
 				<itunes:keywords></itunes:keywords>
-				<itunes:image href="http://localhost:3000//images/itunes.png" />
+				<itunes:image href="https://zises.github.io/nerd//images/itunes.png" />
 				<itunes:explicit></itunes:explicit>
 				<itunes:block></itunes:block>
 			</item>
 		
 			<item>
 				<title>BIOLITICS Studio ft. Dispensary33 &amp;amp; NAC</title>
-				<link>http://localhost:3000//blog/update/2017/09/09/biolitics/</link>
+				<link>https://zises.github.io/nerd//blog/update/2017/09/09/biolitics/</link>
 				<pubDate>Sat, 09 Sep 2017 00:00:00 -0500</pubDate>
 				<description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, nesciunt blanditiis delectus deserunt voluptate, sit fugit nulla corporis quam consequuntur error, quasi, numquam eius ullam. Iste praesentium quas reprehenderit, ex tenetur adipisci dolorum autem, quidem voluptatum explicabo veniam esse. Mollitia ipsum maxime consequatur asperiores cum. Reprehenderit error ipsum consequuntur esse!&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:3000//blog/update/2017/09/09/biolitics/</guid>
-				<enclosure url="http://localhost:3000/" length="" type="audio/mp3"/>
+				<guid isPermaLink="true">https://zises.github.io/nerd//blog/update/2017/09/09/biolitics/</guid>
+				<enclosure url="https://zises.github.io/nerd/" length="" type="audio/mp3"/>
 				<itunes:author>Richard Park</itunes:author>
-				<itunes:subtitle>Cannabinerd: BIOLITICS Studio ft. Dispensary33 &amp; NAC</itunes:subtitle>
+				<itunes:subtitle>Richard Park's Cannabinerd Podcast: BIOLITICS Studio ft. Dispensary33 &amp; NAC</itunes:subtitle>
 				<itunes:summary></itunes:summary>
 				<itunes:duration></itunes:duration>
 				<itunes:keywords></itunes:keywords>
-				<itunes:image href="http://localhost:3000//images/itunes.png" />
+				<itunes:image href="https://zises.github.io/nerd//images/itunes.png" />
 				<itunes:explicit></itunes:explicit>
 				<itunes:block></itunes:block>
 			</item>
 		
 			<item>
 				<title>HTFSE &amp;amp; HCFSE Explained</title>
-				<link>http://localhost:3000//blog/update/2017/09/05/fse/</link>
+				<link>https://zises.github.io/nerd//blog/update/2017/09/05/fse/</link>
 				<pubDate>Tue, 05 Sep 2017 00:00:00 -0500</pubDate>
 				<description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, nesciunt blanditiis delectus deserunt voluptate, sit fugit nulla corporis quam consequuntur error, quasi, numquam eius ullam. Iste praesentium quas reprehenderit, ex tenetur adipisci dolorum autem, quidem voluptatum explicabo veniam esse. Mollitia ipsum maxime consequatur asperiores cum. Reprehenderit error ipsum consequuntur esse!&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:3000//blog/update/2017/09/05/fse/</guid>
-				<enclosure url="http://localhost:3000/" length="" type="audio/mp3"/>
+				<guid isPermaLink="true">https://zises.github.io/nerd//blog/update/2017/09/05/fse/</guid>
+				<enclosure url="https://zises.github.io/nerd/" length="" type="audio/mp3"/>
 				<itunes:author>Richard Park</itunes:author>
-				<itunes:subtitle>Cannabinerd: HTFSE &amp; HCFSE Explained</itunes:subtitle>
+				<itunes:subtitle>Richard Park's Cannabinerd Podcast: HTFSE &amp; HCFSE Explained</itunes:subtitle>
 				<itunes:summary></itunes:summary>
 				<itunes:duration></itunes:duration>
 				<itunes:keywords></itunes:keywords>
-				<itunes:image href="http://localhost:3000//images/itunes.png" />
+				<itunes:image href="https://zises.github.io/nerd//images/itunes.png" />
 				<itunes:explicit></itunes:explicit>
 				<itunes:block></itunes:block>
 			</item>
 		
 			<item>
 				<title>HTFSE &amp;amp; HCFSE Explained</title>
-				<link>http://localhost:3000//blog/update/2017/09/05/htfse/</link>
+				<link>https://zises.github.io/nerd//blog/update/2017/09/05/htfse/</link>
 				<pubDate>Tue, 05 Sep 2017 00:00:00 -0500</pubDate>
 				<description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, nesciunt blanditiis delectus deserunt voluptate, sit fugit nulla corporis quam consequuntur error, quasi, numquam eius ullam. Iste praesentium quas reprehenderit, ex tenetur adipisci dolorum autem, quidem voluptatum explicabo veniam esse. Mollitia ipsum maxime consequatur asperiores cum. Reprehenderit error ipsum consequuntur esse!&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:3000//blog/update/2017/09/05/htfse/</guid>
-				<enclosure url="http://localhost:3000/" length="" type="audio/mp3"/>
+				<guid isPermaLink="true">https://zises.github.io/nerd//blog/update/2017/09/05/htfse/</guid>
+				<enclosure url="https://zises.github.io/nerd/" length="" type="audio/mp3"/>
 				<itunes:author>Richard Park</itunes:author>
-				<itunes:subtitle>Cannabinerd: HTFSE &amp; HCFSE Explained</itunes:subtitle>
+				<itunes:subtitle>Richard Park's Cannabinerd Podcast: HTFSE &amp; HCFSE Explained</itunes:subtitle>
 				<itunes:summary></itunes:summary>
 				<itunes:duration></itunes:duration>
 				<itunes:keywords></itunes:keywords>
-				<itunes:image href="http://localhost:3000//images/itunes.png" />
+				<itunes:image href="https://zises.github.io/nerd//images/itunes.png" />
 				<itunes:explicit></itunes:explicit>
 				<itunes:block></itunes:block>
 			</item>
 		
 			<item>
 				<title>HTFSE &amp;amp; HCFSE Explained</title>
-				<link>http://localhost:3000//blog/update/2017/09/05/htfse-(copy)/</link>
+				<link>https://zises.github.io/nerd//blog/update/2017/09/05/htfse-(copy)/</link>
 				<pubDate>Tue, 05 Sep 2017 00:00:00 -0500</pubDate>
 				<description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, nesciunt blanditiis delectus deserunt voluptate, sit fugit nulla corporis quam consequuntur error, quasi, numquam eius ullam. Iste praesentium quas reprehenderit, ex tenetur adipisci dolorum autem, quidem voluptatum explicabo veniam esse. Mollitia ipsum maxime consequatur asperiores cum. Reprehenderit error ipsum consequuntur esse!&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:3000//blog/update/2017/09/05/htfse-(copy)/</guid>
-				<enclosure url="http://localhost:3000/" length="" type="audio/mp3"/>
+				<guid isPermaLink="true">https://zises.github.io/nerd//blog/update/2017/09/05/htfse-(copy)/</guid>
+				<enclosure url="https://zises.github.io/nerd/" length="" type="audio/mp3"/>
 				<itunes:author>Richard Park</itunes:author>
-				<itunes:subtitle>Cannabinerd: HTFSE &amp; HCFSE Explained</itunes:subtitle>
+				<itunes:subtitle>Richard Park's Cannabinerd Podcast: HTFSE &amp; HCFSE Explained</itunes:subtitle>
 				<itunes:summary></itunes:summary>
 				<itunes:duration></itunes:duration>
 				<itunes:keywords></itunes:keywords>
-				<itunes:image href="http://localhost:3000//images/itunes.png" />
+				<itunes:image href="https://zises.github.io/nerd//images/itunes.png" />
 				<itunes:explicit></itunes:explicit>
 				<itunes:block></itunes:block>
 			</item>
