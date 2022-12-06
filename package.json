@@ -35,7 +35,7 @@
     "start": "npm run scaffold && concurrently -k -n \"WEBPACK,JEKYLL,BROWSER-SYNC\" -c \"bgBlue.bold,bgRed.bold,bgCyan.bold\" \"webpack -w\" \"bundle exec jekyll build --watch\" \"browser-sync start -s _site -f _site --extensions html\""
   },
   "devDependencies": {
-    "browser-sync": "^2.18.13",
+    "browser-sync": "^2.27.10",
     "concurrently": "^3.5.0",
     "editorconfig-tools": "^0.1.1",
     "eslint": "^4.4.1",
